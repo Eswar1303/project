@@ -1,0 +1,45 @@
+/* Navbar */
+.navbar {
+  padding: 1rem 2rem;
+  background: #020617;
+  border-bottom: 1px solid #1e293b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 1.4rem;
+  color: #38bdf8;
+}
+
+/* Content */
+.dashboard {
+  padding: 2rem;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Cards */
+.metric-card {
+  background: #0f172a;
+  padding: 1.8rem;
+  border-radius: 16px;
+  text-align: center;
+  border-top: 4px solid #38bdf8;
+}
+
+.metric-card h3 {
+  color: #94a3b8;
+}
+
+.metric-card p {
+  font-size: 2.2rem;
+  color: #38bdf8;
+  font-weight: bold;
+}
